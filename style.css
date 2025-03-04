@@ -1,0 +1,378 @@
+ *{
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #c2edea;
+}
+.nav-main-div{
+    display: flex;
+ justify-content: space-between;
+    align-items: center;
+    height:50px;
+}
+.nav-child-div li{
+    display: inline-block;
+}
+.nav-child-div span{
+    color: #ff0157;
+}
+.nav-sec{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 35px!important;
+}
+.nav-sec:hover{
+    color: black!important;
+    text-decoration: none!important;
+    letter-spacing: 0px!important;
+}
+.nav-child-div a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+.nav-child-div a:hover{
+    color: #ff0157;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+.banner-sec{
+    width: 100%;
+    height: 650px;
+    background-image:url("../img/bg.jpg");
+}
+.banner-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:650px ;
+}
+.banner-main-div h1{
+    color: white;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+.banner-main-div p{
+    color: white;
+    font-size: 18px;
+    max-width: 900px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.banner-main-div a{
+    padding: 6px 30px 6px 30px;
+    background-color: #ff0157;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.banner-main-div a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s ;
+} 
+/* about */
+.about{
+    height: 500px;
+    width: 100%;
+
+}
+.about-main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about-child-div img{
+    height: 370px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.about-child-div p{
+font-size: 20px;
+}
+.about-child-div h1{
+    font-size: 30px;
+    margin-top: 70px;
+}
+.about-child-div span{
+    font-size: 50px;
+    color: #ff0157;
+    
+}
+/* menu */
+.menu-sec{
+    height:1200 ;
+    width: 100%;
+
+}
+.menu-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.menu-child-div{
+    height:360px;
+    width: 31%;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    
+}
+.spa-sec{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.spa-sec span{
+    font-size: 50px;
+    color: #ff0157;
+}
+.spa-dec{
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.menu-sub-div1{
+    height: 300px;
+    width: 100%;
+
+}
+.menu-sub-div2{
+    height: 50px;
+    margin-top: 10px;
+}
+.menu-sub-div1 img{
+    height: 300px;
+    width: 100%;
+}
+.menu-sub-div2 h1{
+
+}
+.menu-sec a{
+    padding: 6px 30px 6px 30px;
+    background-color: #ff0157;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 690px;
+   
+    
+}
+.menu-sec a:hover{
+letter-spacing: 3px;
+transition: 0.6s ;
+}
+/* kitchen */
+.kitchen-sec{
+    height:500px;
+    width: 100%;
+    /* background-color:blue; */
+    margin-top: 50px;
+}
+.our-sec {
+    font-size: 30px;
+    text-align: center;
+
+}
+.our-sec span{
+    font-size: 50px;
+    color: #ff0157;
+}
+.our-dec{
+    font-size: 20px;
+    text-align: center;
+}
+.kitchen-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+.kitchen-child-div{
+    height:360px;
+    width: 24%;
+}
+.kitchen-sub-div1{
+    height: 300px;
+    width: 100%;
+
+}
+.kitchen-sub-div2{
+    height: 50px;
+    margin-top: 10px;
+}
+.kitchen-sub-div1 img{
+    height: 300px;
+    width: 100%;
+}
+/* said-sec */
+.said-sec{
+    height: 640px;
+    width: 100%;
+    /* background-color: white; */
+background-image: url("../img/famous\ background.jpg");
+background-size: cover;
+}
+.famous-sec{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 55px;
+    color: white;
+}
+.famous-sec span{
+font-size: 50px;
+color: #ff0157;
+}
+.famous-dec{
+    font-size: 20px;
+    text-align: center;
+    color: white;  
+}
+
+.said-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.said-child-div{
+    height:430px;
+    width: 27%;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+.said-sub-div1{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+   
+
+}
+/* .said-sub-div2{
+    height: 50px;
+    margin-top: 10px;
+} */
+.said-sub-div1 img{
+    height: 80x;
+    width:  80px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+  
+}
+.text-big{
+    font-size: 20px;
+}
+/* contact-sec */
+.contact-sec{
+    height: 700px;
+    width: 100%;
+    background-color: #c2edea;
+margin-top: 40px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+background-image: url("../img/tomato.jpg");
+background-size: cover;
+
+}
+.con-sec{
+
+    font-size: 30px;
+    text-align: center;
+
+}
+.con-dec{
+    font-size: 20px;
+text-align: center;
+}
+.con-sec span{
+    font-size: 50px;
+    color: #ff0157;
+}
+
+.message-sec{
+    height: 470px;
+    width: 570px;
+    background-color: white;
+margin-left: 50px;
+margin-top: 50px;
+border-radius: 20px;
+}
+.mass-sec{
+   padding-top: 80px;
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+.send-sec{
+    height: 20px;
+    width: 450px;
+    margin-left: 50px;
+border-radius: 10px;
+font-size:17px ;
+padding-left: 10px;
+padding-bottom: 8px;
+padding-top: 8px;
+}
+.send-lec{
+    height: 30px;
+    width: 450px;
+    margin-left: 50px;
+border-radius: 10px;
+font-size: 20px;
+padding-left: 10px;
+padding-bottom: 30px;
+
+}
+
+.send-dec{
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #ff0157;
+    color: aliceblue;font-size: 20px;
+
+}
+
+.footer-sec{
+    height: 60px;
+    width: 100%;
+    background-color: coral;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 50px;
+    font-size: 12px;
+    
+}
+.footer-sec span{
+    color: #ff0157;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
